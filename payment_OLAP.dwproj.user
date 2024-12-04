@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DW Credit</Id>
+            <Name>DW Credit</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkLc6iP5yxUWsKBGZjGjbuAAAAAAUAAAARABXACAAQwByAGUAZABpAHQAAAAQZgAAAAEAACAAAACyvgUKCZUCjd0qTnjFK8oQ8Z1IKUIkuNe3NBLfzirYvgAAAAAOgAAAAAIAACAAAADWcYt5rb3wCW+bGuVEsSIPge14XdQpPjX7LhTv2rtBlxAAAABV0RV3elHCPKUMRmUgowIqQAAAAD3M5nMDjPoxMFhjMt63RYmiGOp448EgzsluLkMuMm9Hi9zxpdDLKj7222Os+rJNqUTqupd79TyiiH/4mzR6mPA=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DW Credit</Id>
+            <Name>DW Credit</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkLc6iP5yxUWsKBGZjGjbuAAAAAAUAAAARABXACAAQwByAGUAZABpAHQAAAAQZgAAAAEAACAAAABPP4uu4jQAbNucEJvjiGjpH35JuRVG9FqeVxwKjFhfwAAAAAAOgAAAAAIAACAAAABTtfNQ+G/MB6i8W1qzS6wSiaKRGfUeBJQi5tXbBAsS/iAAAAB5+GT5sUsHwjou40MJbxrz4aiT9k0DbbAarIHB7XpwF0AAAAAS86bMoZCoXfAzBqpnzECIXzTu+hHyjm2Y8sH2Ju7CZ2OB3RZkwjGbp+CQgIqukF+J9iiAsM8creaXpoaB2pip</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>payment_OLAP</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
